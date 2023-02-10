@@ -1,102 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Resume</title>
-</head>
-<body>
-  <header>
-    <img src="Belarmino.jpg" height="200px" alt="Resume Picture">
-    <h1>Jiankarlo A. Belarmino</h1>
-    <h2>Software Engineer</h2>
-    <p>Address: 0709 Zone 3 San Agustin, Pili, Camarines Sur</p>
-    <p>Contact Information: <a href="mailto:belarminojiankarlo@gmail.com">belarminojiankarlo@gmail.com</a> | (+63) 921-346-9605</p>
-  </header>
-  <hr>
-  <main>
-    <section>
-      <h3>Short Personal Statement</h3>
-      <p>A 2nd year BS Computer Science student from Ateneo de Naga University.</p>
-    </section>
-    <hr>
-    <section>
-      <h3>Work Experience</h3>
-      <ol>
-        <li>
-          <h4>Backend Engineer / CodeArmy.dev</h4>
-          <p><i>November 2022</i> - <b>PRESENT</b></p>
-          <ul>
-            <li>Designed the Backend Architecture and Database Schema</li>
-            <li>Designed and Built the API</li>
-            <li>Documented the API</li>
-            <li>Configured CI/CD</li>
-            <li>Utilized firebase as the authentication layer</li>
-          </ul>
-        </li>
-        <li>
-          <h4>Backend Lead / Ateneo de Naga University - College of Computer Studies</h4>
-          <p><i>June 2022</i> - <b>PRESENT</b></p>
-          <ul>
-            <li>Lead the backend team in developing an e-learning competitive programming platform</li>
-            <li>Built Cloud functions for Parse JS</li>
-            <li>Transformed a SQL schema to a NoSQL schema</li>
-            <li>Utilized Judge0 API as the compiler and online judge for the platform</li>
-          </ul>
-        </li>
-        <li>
-          <h4>Flutter Developer / CodeArmy.dev</h4>
-          <p><i>August 2022 - September 2022</i></p>
-          <ul>
-            <li>Built the UI for an educational mobile platform</li>
-            <li>Designed the UI for the progress map</li>
-          </ul>
-        </li>
-      </ol>
-    </section>
-    <hr>
-    <section>
-      <h3>Education</h3>
-      <ul>
-        <li>
-          <h4>BS Computer Science - College</h4>
-          <h4>Ateneo de Naga University</h4>
-          <p><i>August 2021</i> - <b>PRESENT</b></p>
-        </li>
-        <li>
-          <h4>STEM - Senior High School</h4>
-          <h4>Ateneo de Naga University</h4>
-          <p><i>June 2019 - June 2021</i></p>
-        </li>
-      </ul>
-    </section>
-    <hr>
-    <section>
-      <h3>Certifications</h3>
-      <ul>
-        <li><i>CS50's Introduction to Programming</i></li>
-        <li><i>CS50's Introduction to Computing</i></li>
-        <li><i>Funky Flutter February 2021</i></li>
-        <li><i>1st place in Ateneo Competitive Programming Competition Freshmen Edition 2021</i></li>
-        <li><i>College of Computer Studies Student Volunteer Program</i></li>
-      </ul>
-    </section>
-    <hr>
-    <section>
-      <h3>References</h3>
-      <ul>
-        <li>Rhymart Manchus: <i>rmanchus@codearmy.dev</i></li>
-        <li>John Ryan Lorca: <i>jlorca@gmail.com</i></li>
-        <li>Maricel Fornaleza: <i>mfornaleza@gmail.com</i></li>
-      </ul>
-    </section>
-    <section>
-      <a href="contact-form.html">Hit me up</a>
-    </section>
-  </main>
-  <footer>
-    <p>© 2023 Jiankarlo A. Belarmino</p>
-  </footer>
-</body>
+  <head>
+    <title>Resume</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="flex-container">
+      <div class="profile">
+        <img class="profile_img" src="/assets/Belarmino.png" alt="jiankarlo belarmino" />
+        <div>
+          <h1 class="profile_name">
+            Jiankarlo Belarmino
+          </h1>
+          <span class="title">Software Engineer</span>
+          <p class="description">
+            A 2nd year BS Computer Science student from Ateneo de Naga University. 
+            A passionate and curious individual with critical and analytical skills. 
+            As well as an avid competitive programmer who loves problem solving. 
+            The field of Computer Science has always been my passion 
+            and I am excited to explore and experience every single part of it.
+          </p>
+        </div>
+      </div>
+      <hr>
+      <div class="body">
+        <div class="groups">
+          <div class="group-item">
+            <h3 class="title">Expertise</h3>
+            <ul class="description">
+              <li>HTML CSS</li>
+              <li>React JS</li>
+              <li>Vue JS</li>
+              <li>Node JS</li>
+              <li>Express JS</li>
+              <li>Parse JS</li>
+              <li>MongoDB</li>
+              <li>Firebase</li>
+              <li>MySQL</li>
+              <li>Flutter</li>
+            </ul>
+          </div>
+          <div class="group-item">
+            <h3 class="title">Education</h3>
+            <div class="description">
+              <p>2021-PRESENT</p>
+              <h4>BS Computer Science - College</h4>
+              <p>Ateneo de Naga University</p>
+            </div>
+            <div class="description">
+              <p>2019-2021</p>
+              <h4>STEM - Senior High School</h4>
+              <p>Ateneo de Naga University</p>
+            </div>
+          </div>
+
+          <div class="group-item">
+            <h3 class="title">certifications</h3>
+            <div class="description">
+              <p>2021</p>
+              <h4>
+                Funky Flutter February
+              </h4>
+            </div>
+            <div class="description">
+              <p>2020</p>
+              <h4>
+                <a href="https://certificates.cs50.io/efd7937d-6079-4980-bd57-1340ded151e1.pdf?size=letter">CS50's Introduction to Programming</a>
+              </h4>
+            </div>
+            <div class="description">
+              <p>2020</p>
+              <h4>
+                <a href="https://certificates.cs50.io/0df76e74-9804-4474-b07b-1d52655a5633.pdf?size=letter">CS50's Introduction to Computing</a>
+              </h4>
+            </div>
+          </div>
+          <div class="group-item">
+            <h3 class="title">Contact</h3>
+            <div class="description">
+              <p>San Agustin, Pili Camarines Sur</p>
+              <p>+63 921 346 9605</p>
+              <p>belarminojiankarlo@gmail.com</p>
+            </div>
+          </div>
+          <div class="group-item">
+            <h3 class="title">Reference</h3>
+            <table>
+              <tr>
+                <td class="description">Rhymart Manchus</td><td class="ref">rmanchus@gmail.com</td>
+              </tr>
+              <tr>
+                <td class="description">Maricel Fornaleza</td><td class="ref">mfornaleza@gmail.com</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="groups">
+          <div class="group-item">
+            <h3 class="title">Experience</h3>
+            <div class="description">
+              <p>Nov 2021 - present</p>
+              <h4>Backend Engineer</h4>
+              <h5>CodeArmy.dev</h5>
+              <p>
+                Tasked to design, develop and maintain an API for a project. 
+                Designed the database schema for a project. 
+                As well as the configuration for the automation of tests and deployment. 
+              </p>
+            </div>
+            <div class="description">
+              <p>June 2021 - Dec 2021</p>
+              <h4>Backend Team Lead</h4>
+              <h5>CodeC</h5>
+              <p>
+                Lead the backend team in developing an e-learning competitive programming
+                platform that is utilized by the students of Ateneo de Naga University. 
+              </p>
+            </div>
+            <div class="description">
+              <p>Nov 2021 - Nov 2021</p>
+              <h4>Flutter Developer</h4>
+              <h5>CodeArmy.dev</h5>
+              <p>
+                Developed the UI for the progress map of an educational game 
+                for basic English comprehension.
+              </p>
+            </div>
+          </div>
+          <div class="group-item">
+            <h3 class="title">Awards</h3>
+            <div class="description">
+              <p>2021</p>
+              <h4>1st place in ACPC FE 2021</h4>
+              <p>
+                The ateneo competitive programming competition freshmen edition is a an annual competition to see 
+                who hails the best among the freshmen. I ranked 1st by solving 5 problems and being the fastest to do so. 
+              </p>
+            </div>
+            <div class="description">
+              <p>2019</p>
+              <h4>Award of Distinction - Best in Computer</h4>
+              <p>
+                An award of distinction that was awarded to me during my moving up ceremonies 
+                with Naga Hope Christian School, my junior high school.
+              </p>
+            </div>
+          </div>
+          <div class="group-item">
+            <h3 class="title">Socials</h3>
+            <div class="socials">
+              <a href="https://github.com/CSjianbel" class="social_item">
+                <img src="/assets/github.svg" class="icon">
+              </a>
+              <a href="https://web.facebook.com/OjouNii" class="social_item">
+                <img src="/assets/facebook.svg" class="icon">
+              </a>
+              <a href="https://www.linkedin.com/in/jianbel/" class="social_item">
+                <img src="/assets/linkedin.svg" class="icon">
+              </a>
+            </div>
+          </div>
+          <div class="group-item">
+            <a class="contact-me" href="contact-form.html"><h3 class="title">Message me</h3></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+    </div>
+  </body>
 </html>

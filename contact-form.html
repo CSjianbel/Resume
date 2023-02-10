@@ -1,20 +1,49 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Contact Form</title>
-</head>
-<body>
-    <a href="index.html">← BACK</a>
-    <h1>Drop a message</h1>
-    <form >
-        Name: <input type="text" name="firstname" placeholder="name"/><br/>
-        Email: <input type="email" name="email" placeholder="email"/><br/>
-        <textarea name="address" placeholder="enter message here" cols="25" rows="10"></textarea><br/>
-        <input type="submit" name="submit" value="Submit"/>
-        <input type="reset" name="reset" value="Reset"/>
-    </form>
-    <a href="https://www.linkedin.com/in/jianbel">LinkedIn</a>
-    <a href="https://www.facebook.com/OjouNii">Facebook</a>
-    <a href="https://github.com/CSjianbel">Github</a>
-</body>
+  <head>
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body>
+    <div class="flex-container contact-page">
+      <a href="index.html">← BACK</a>
+      <h1 class="title">Drop a message</h1>
+      <form class="form">
+        <div>
+          <span class="description">Name:</span>
+          <input type="text" name="firstname" placeholder="name" />
+        </div>
+        <div>
+          <span class="description">Email:</span>
+          <input type="email" name="email" placeholder="email" />
+        </div>
+        <textarea
+          name="address"
+          placeholder="enter message here"
+          cols="25"
+          rows="10"
+        ></textarea
+        ><br />
+        <div class="buttons">
+          <input class="button" type="submit" name="submit" value="Submit" />
+          <input class="button" type="reset" name="reset" value="Reset" />
+        </div>
+      </form>
+      <div class="group-item social">
+        <h3 class="title">Socials</h3>
+        <div class="socials">
+          <a href="https://github.com/CSjianbel" class="social_item">
+            <img src="/assets/github.svg" class="icon" />
+          </a>
+          <a href="https://web.facebook.com/OjouNii" class="social_item">
+            <img src="/assets/facebook.svg" class="icon" />
+          </a>
+          <a href="https://www.linkedin.com/in/jianbel/" class="social_item">
+            <img src="/assets/linkedin.svg" class="icon" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

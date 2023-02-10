@@ -1,0 +1,136 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to bottom right, #222, #777);
+  color: white;
+}
+
+.flex-container {
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  background: #ccc;
+  padding: 1.5rem;
+  gap: 2rem;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.profile_img {
+  max-width: 250px;
+  outline-style: solid;
+}
+
+.profile_name {
+  color: black;
+  font-weight: 200;
+  font-size: clamp(2rem, 8vw, 4rem);
+  t-transform: uppercase;
+}
+
+.description {
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 200;
+  color: #232323;
+}
+
+.body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-left: 1rem;
+}
+
+.groups {
+  width: 50%;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #ee6502;
+  text-transform: uppercase;
+  margin-top: 1rem;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.socials a {
+  margin-top: 2rem;
+}
+
+.contact-page {
+  height: 100vh;
+}
+
+input {
+  height: 2rem;
+  width: 100%;
+  text-align: center;
+}
+
+textarea {
+  width: 100%;
+  margin: 2rem 0 2rem 0;
+  height: 25vh;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.button {
+  height: 5vh;
+  cursor: pointer;
+}
+
+td {
+  padding: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #232323;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.contact-me {
+  color: #ee6502;
+}
+
+.ref:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+ul {
+  list-style-type: square;
+}
+
+li {
+  margin-left: 2rem;
+}
+
+hr {
+  margin: 0;
+}
